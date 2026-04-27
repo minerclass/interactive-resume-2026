@@ -165,11 +165,16 @@ h3 {
 }
 
 .hero-actions,
-.contact-actions {
+.contact-actions,
+.card-actions {
   display: flex;
   gap: 0.75rem;
   flex-wrap: wrap;
   margin-top: 1.6rem;
+}
+
+.card-actions {
+  margin-top: 1rem;
 }
 
 .button {

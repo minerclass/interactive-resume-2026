@@ -155,65 +155,96 @@ const evidence = [
 const projectRepos = [
   {
     title: "Interactive Resume",
-    status: "Current repo",
+    category: "Website",
+    status: "Live GitHub Pages site",
     summary: "The public-facing professional map that connects resume claims to writing, projects, frameworks, and leadership evidence.",
-    link: "#top",
+    liveLink: "https://minerclass.github.io/interactive-resume-2026/",
+    repoLink: "https://github.com/minerclass/interactive-resume-2026",
     tags: ["Portfolio", "GitHub Pages", "Professional identity"]
   },
   {
-    title: "Pedagogy of Friction Site",
-    status: "Public GitHub repo",
-    summary: "A research and public scholarship space for pedagogical friction, AI, and critical digital literacies.",
-    link: "https://github.com/minerclass/genAI-ML-pedagogy-of-friction-site",
-    tags: ["Research", "AI", "Learning theory"]
+    title: "The Long Arc of Machine Intelligence (App)",
+    category: "Visual Apps for Qualifying Paper",
+    status: "Live Web App",
+    summary: "This is a live, interactive application that visually demonstrates and explores the core arguments of the paper related to the historical 'long arc of machine intelligence'.",
+    liveLink: "https://the-long-arc-of-machine-intelligence-551588160490.us-west1.run.app",
+    tags: ["Interactive App", "Visual Demonstration", "AI History"]
   },
   {
-    title: "Qualifying Dissertation Resource Site",
-    status: "Public GitHub repo",
-    summary: "A resource site connected to dissertation planning, literature synthesis, and doctoral research workflow.",
-    link: "https://github.com/minerclass/qualifying-dissertation-resource-site",
-    tags: ["Dissertation", "Research workflow", "Literature review"]
+    title: "Pedagogical Friction Companion (App)",
+    category: "Visual Apps for Qualifying Paper",
+    status: "Live Web App",
+    summary: "This is a live, interactive application acting as a companion piece to the paper, allowing users to engage with or visualize the paper's claims concerning 'pedagogical friction'.",
+    liveLink: "https://pedagogical-friction-companion-551588160490.us-west1.run.app",
+    tags: ["Interactive App", "Companion Piece", "Pedagogical Friction"]
   },
   {
-    title: "The Long Arc",
-    status: "Public GitHub repo",
-    summary: "A historical learning site on machine intelligence, media change, and the development of AI.",
-    link: "https://github.com/minerclass/genAI-ML-the-long-arc-site",
-    tags: ["AI history", "Public learning", "Interactive site"]
+    title: "The Long Arc of Machine Intelligence",
+    category: "GitHub Sites for Qualifying Paper",
+    status: "Public Site",
+    summary: "This is a static web resource that provides text, data, and foundational material expanding on the paper to share the history of the 'long arc of machine intelligence'.",
+    liveLink: "https://minerclass.github.io/genAI-ML-the-long-arc-site/",
+    repoLink: "https://github.com/minerclass/genAI-ML-the-long-arc-site",
+    tags: ["Static Site", "Foundational Material", "AI History"]
   },
   {
-    title: "Technologizing the Word Site",
-    status: "Public GitHub repo",
-    summary: "A media ecology project space connected to Walter Ong, literacy, orality, and emerging technologies.",
-    link: "https://github.com/minerclass/genAI-ML-the-technologizing-word-site",
-    tags: ["Media ecology", "Theory", "Digital scholarship"]
+    title: "Pedagogy of Friction",
+    category: "GitHub Sites for Qualifying Paper",
+    status: "Public Site",
+    summary: "This is a static web resource dedicated to summarizing and supporting the paper's claims specifically related to the 'pedagogy of friction'.",
+    liveLink: "https://minerclass.github.io/genAI-ML-pedagogy-of-friction-site/",
+    repoLink: "https://github.com/minerclass/genAI-ML-pedagogy-of-friction-site",
+    tags: ["Static Site", "Research Support", "Pedagogy"]
   },
   {
-    title: "Literature Review Supplement",
-    status: "Public GitHub repo",
-    summary: "A companion resource for organizing and presenting literature review concepts, sources, and synthesis.",
-    link: "https://github.com/minerclass/qualifying-dissertation-litreview",
-    tags: ["Literature review", "Doctoral study", "Synthesis"]
+    title: "The Technologizing of the Word",
+    category: "GitHub Sites for Qualifying Paper",
+    status: "Public Site",
+    summary: "This is a static web resource focused on the paper's theoretical claims regarding medial ecology.",
+    liveLink: "https://minerclass.github.io/genAI-ML-the-technologizing-word-site/",
+    repoLink: "https://github.com/minerclass/genAI-ML-the-technologizing-word-site",
+    tags: ["Static Site", "Media Ecology", "Theory"]
+  },
+  {
+    title: "Tertiary Algorithmicity",
+    category: "GitHub Sites for Qualifying Paper",
+    status: "Public Site",
+    summary: "This serves as a central resource hub for the paper's main theoretical framework, 'Tertiary Algorithmicity,' and connects those ideas to the scope of the planned dissertation.",
+    liveLink: "https://minerclass.github.io/qualifying-dissertation-resource-site/",
+    repoLink: "https://github.com/minerclass/qualifying-dissertation-resource-site",
+    tags: ["Resource Hub", "Theoretical Framework", "Dissertation"]
+  },
+  {
+    title: "Qualifying Dissertation Lit Review",
+    category: "GitHub Sites for Qualifying Paper",
+    status: "Public Site",
+    summary: "This is a static web resource containing literature review material relevant to the qualifying paper and planned dissertation.",
+    liveLink: "https://minerclass.github.io/qualifying-dissertation-litreview/",
+    repoLink: "https://github.com/minerclass/qualifying-dissertation-litreview",
+    tags: ["Static Site", "Literature Review", "Dissertation"]
   },
   {
     title: "Dissertation Questions Beta",
+    category: "GitHub Repository",
     status: "Public GitHub repo",
     summary: "A beta project space for exploring dissertation questions, research structure, and inquiry design.",
-    link: "https://github.com/minerclass/dissertationquestionsbeta",
+    repoLink: "https://github.com/minerclass/dissertationquestionsbeta",
     tags: ["Dissertation", "Research questions", "Prototype"]
   },
   {
     title: "Visualizations",
+    category: "GitHub Repository",
     status: "Public GitHub repo",
     summary: "A public repository for visual and interactive work that can support presentations, scholarship, and educator-facing explanation.",
-    link: "https://github.com/minerclass/Visualizations",
+    repoLink: "https://github.com/minerclass/Visualizations",
     tags: ["Visualization", "Interactive artifacts", "Public scholarship"]
   },
   {
     title: "Google Apps Script",
+    category: "GitHub Repository",
     status: "Public GitHub repo",
     summary: "A space for Google Apps Script work connected to automation, productivity, and practical school technology workflows.",
-    link: "https://github.com/minerclass/Google-Apps-Script",
+    repoLink: "https://github.com/minerclass/Google-Apps-Script",
     tags: ["Automation", "Google Workspace", "School operations"]
   }
 ];
@@ -439,17 +470,21 @@ function renderEvidence() {
 function renderRepos() {
   const container = document.querySelector("#repoGrid");
   container.innerHTML = projectRepos.map((item) => {
-    const link = item.link
-      ? `<a class="button" href="${item.link}" ${item.link.startsWith("http") ? 'target="_blank" rel="noreferrer"' : ""}>Open</a>`
-      : `<span class="tag">${item.status}</span>`;
+    const liveLink = item.liveLink
+      ? `<a class="button primary" href="${item.liveLink}" target="_blank" rel="noreferrer">Open live page</a>`
+      : "";
+    const repoLink = item.repoLink
+      ? `<a class="button" href="${item.repoLink}" target="_blank" rel="noreferrer">View source</a>`
+      : "";
 
     return `
       <article class="card">
+        <span class="resource-type">${item.category}</span>
         <h3>${item.title}</h3>
         <p><strong>${item.status}</strong></p>
         <p>${item.summary}</p>
         <div class="tag-row">${item.tags.map(makeTag).join("")}</div>
-        ${link}
+        <div class="card-actions">${liveLink}${repoLink}</div>
       </article>
     `;
   }).join("");
