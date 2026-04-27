@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive resume and professional portfolio for Micah J. Miner, CETL, Ed.S., Ed.D. Candidate.">
+    <title>Micah J. Miner | Interactive Resume</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+      <nav class="topbar" aria-label="Primary">
+        <a class="brand" href="#top" aria-label="Micah J. Miner home">MJM</a>
+        <div class="nav-links">
+          <a href="#experience">Experience</a>
+          <a href="#evidence">Evidence</a>
+          <a href="#projects">Projects</a>
+          <a href="#writing">Writing</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <section id="top" class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Interactive resume extension</p>
+          <h1>Micah J. Miner</h1>
+          <p class="hero-title">CETL, Ed.S. | Ed.D. Candidate | K-12 technology leader, author, consultant, and researcher</p>
+          <p class="hero-summary">
+            District technology leader and educational writer working across AI governance, instructional technology, curriculum, infrastructure, media literacy, and public scholarship.
+          </p>
+          <div class="hero-actions" aria-label="Quick actions">
+            <a class="button primary" href="#pathways">Explore pathways</a>
+            <a class="button" href="https://micahminer.com/" target="_blank" rel="noreferrer">Visit website</a>
+            <button class="button icon-button" type="button" id="printButton" aria-label="Print or save this page">Print</button>
+          </div>
+        </div>
+
+        <aside class="signal-panel" aria-label="Professional signals">
+          <div>
+            <span class="metric">20+</span>
+            <span class="metric-label">years in education</span>
+          </div>
+          <div>
+            <span class="metric">14+</span>
+            <span class="metric-label">years leading technology and curriculum work</span>
+          </div>
+          <div>
+            <span class="metric">5</span>
+            <span class="metric-label">school district technology operation</span>
+          </div>
+          <div>
+            <span class="metric">2027</span>
+            <span class="metric-label">expected Ed.D. completion</span>
+          </div>
+        </aside>
+      </section>
+    </header>
+
+    <main id="main">
+      <section class="section intro-grid" aria-labelledby="summary-heading">
+        <div>
+          <p class="section-kicker">Professional summary</p>
+          <h2 id="summary-heading">Leadership at the intersection of infrastructure, pedagogy, and public purpose.</h2>
+        </div>
+        <div class="lead-copy">
+          <p>
+            My work spans district technology operations, responsible AI adoption, curriculum leadership, professional learning, social studies and civic education, and research-informed writing. The thread across the work is practical technoskepticism: building systems that expand access and capacity while preserving student privacy, educator judgment, and meaningful learning.
+          </p>
+          <p>
+            This repo is meant to make the resume explorable. It gives collaborators, districts, conference organizers, search committees, and readers a clearer view of the projects, frameworks, writing, and leadership contexts behind the one-page credential summary.
+          </p>
+        </div>
+      </section>
+
+      <section id="pathways" class="section" aria-labelledby="pathways-heading">
+        <div class="section-heading">
+          <p class="section-kicker">Choose a lens</p>
+          <h2 id="pathways-heading">Explore by professional pathway.</h2>
+        </div>
+        <div class="pathway-grid" id="pathwayGrid"></div>
+      </section>
+
+      <section id="experience" class="section split-section" aria-labelledby="experience-heading">
+        <div class="section-heading sticky-heading">
+          <p class="section-kicker">Experience</p>
+          <h2 id="experience-heading">A career arc from classroom practice to district systems leadership.</h2>
+          <p>Filter the timeline by domain to see how leadership, curriculum, policy, and technology work connect across roles.</p>
+          <div class="filter-row" id="experienceFilters" aria-label="Experience filters"></div>
+        </div>
+        <div class="timeline" id="experienceTimeline"></div>
+      </section>
+
+      <section id="evidence" class="section" aria-labelledby="evidence-heading">
+        <div class="section-heading">
+          <p class="section-kicker">Evidence map</p>
+          <h2 id="evidence-heading">What the resume points toward.</h2>
+        </div>
+        <div class="evidence-grid" id="evidenceGrid"></div>
+      </section>
+
+      <section id="projects" class="section" aria-labelledby="projects-heading">
+        <div class="section-heading">
+          <p class="section-kicker">GitHub and portfolio map</p>
+          <h2 id="projects-heading">Project spaces to connect next.</h2>
+          <p>This section is ready for verified GitHub URLs. The first version includes public-facing project categories from the resume and website context without inventing repo links.</p>
+        </div>
+        <div class="repo-grid" id="repoGrid"></div>
+      </section>
+
+      <section id="writing" class="section resource-section" aria-labelledby="writing-heading">
+        <div class="section-heading">
+          <p class="section-kicker">Public scholarship</p>
+          <h2 id="writing-heading">Writing, publications, speaking, and research themes.</h2>
+        </div>
+
+        <div class="tool-row">
+          <label class="search-label" for="resourceSearch">Search resources</label>
+          <input id="resourceSearch" class="search-input" type="search" placeholder="Search AI, social studies, friction, governance, publication, podcast...">
+          <div class="filter-row" id="resourceFilters" aria-label="Resource filters"></div>
+        </div>
+
+        <div class="resource-grid" id="resourceGrid" aria-live="polite"></div>
+      </section>
+
+      <section class="section credentials-section" aria-labelledby="credentials-heading">
+        <div class="section-heading">
+          <p class="section-kicker">Credentials</p>
+          <h2 id="credentials-heading">Education, certifications, fellowships, and affiliations.</h2>
+        </div>
+        <div class="credential-grid" id="credentialGrid"></div>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <div>
+        <p class="section-kicker">Contact</p>
+        <h2>Connect with Micah Miner</h2>
+        <p>Chicago, Illinois | K-12 technology leadership, AI governance, professional learning, writing, and speaking.</p>
+      </div>
+      <div class="contact-actions">
+        <a class="button primary" href="mailto:minerclass@gmail.com">Email</a>
+        <a class="button" href="https://micahminer.com/" target="_blank" rel="noreferrer">Website</a>
+        <a class="button" href="https://www.linkedin.com/in/micah-j-miner/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
