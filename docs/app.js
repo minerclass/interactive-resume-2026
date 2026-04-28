@@ -179,6 +179,15 @@ const projectRepos = [
     tags: ["Interactive App", "Companion Piece", "Pedagogical Friction"]
   },
   {
+    title: "Mixed Methods Research Plan",
+    category: "GitHub Sites for Dissertation Planning",
+    status: "Public GitHub Pages site",
+    summary: "A public-facing mixed methods research plan for the planned dissertation, connecting pedagogical friction, tertiary algorithmicity, participant groups, research questions, and companion resources.",
+    liveLink: "https://minerclass.github.io/mixed-methods-portfolio/",
+    repoLink: "https://github.com/minerclass/mixed-methods-portfolio",
+    tags: ["Mixed Methods", "GitHub Pages", "Dissertation", "Pedagogical Friction"]
+  },
+  {
     title: "The Long Arc of Machine Intelligence",
     category: "GitHub Sites for Qualifying Paper",
     status: "Public Site",
