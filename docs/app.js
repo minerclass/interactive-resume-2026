@@ -163,6 +163,33 @@ const projectRepos = [
     tags: ["Portfolio", "GitHub Pages", "Professional identity"]
   },
   {
+    title: "BPD3 Technology Department Review",
+    category: "BPD3 Public Work Sites",
+    status: "Live GitHub Pages site",
+    summary: "A public-facing executive review of BPD3 technology department wins, infrastructure modernization, cybersecurity governance, and implementation challenges.",
+    liveLink: "https://minerclass.github.io/bpd3-tech-review/",
+    repoLink: "https://github.com/minerclass/bpd3-tech-review",
+    tags: ["BPD3", "Technology leadership", "Cybersecurity", "GitHub Pages"]
+  },
+  {
+    title: "BPD3 Student Data Privacy Training",
+    category: "BPD3 Public Work Sites",
+    status: "Live GitHub Pages site",
+    summary: "A browser-based staff training module for student data privacy, covering FERPA, COPPA, CIPA, SOPPA, multi-factor authentication, and secure data practices.",
+    liveLink: "https://minerclass.github.io/bpd3-privacy-training/",
+    repoLink: "https://github.com/minerclass/bpd3-privacy-training",
+    tags: ["BPD3", "Student privacy", "Training", "GitHub Pages"]
+  },
+  {
+    title: "BPD3 Board Meeting Dashboard",
+    category: "BPD3 Public Work Sites",
+    status: "Live GitHub Pages site",
+    summary: "A public dashboard for organizing BPD3 board meeting information, timelines, categories, and links to district board resources.",
+    liveLink: "https://minerclass.github.io/bpd3-board-meeting-dashboard/",
+    repoLink: "https://github.com/minerclass/bpd3-board-meeting-dashboard",
+    tags: ["BPD3", "Board meetings", "Public dashboard", "GitHub Pages"]
+  },
+  {
     title: "The Long Arc of Machine Intelligence (App)",
     category: "Visual Apps for Qualifying Paper",
     status: "Live Web App",
@@ -186,6 +213,15 @@ const projectRepos = [
     liveLink: "https://minerclass.github.io/mixed-methods-portfolio/",
     repoLink: "https://github.com/minerclass/mixed-methods-portfolio",
     tags: ["Mixed Methods", "GitHub Pages", "Dissertation", "Pedagogical Friction"]
+  },
+  {
+    title: "Dissertation Explorer",
+    category: "GitHub Sites for Dissertation Planning",
+    status: "Live GitHub Pages site",
+    summary: "A public dissertation planning site that organizes research ideas, conceptual pathways, and companion planning materials for the doctoral project.",
+    liveLink: "https://minerclass.github.io/Initial_dissertation_explorer_site/",
+    repoLink: "https://github.com/minerclass/Initial_dissertation_explorer_site",
+    tags: ["Dissertation", "Research planning", "GitHub Pages", "Explorer"]
   },
   {
     title: "The Long Arc of Machine Intelligence",
@@ -231,14 +267,6 @@ const projectRepos = [
     liveLink: "https://minerclass.github.io/qualifying-dissertation-litreview/",
     repoLink: "https://github.com/minerclass/qualifying-dissertation-litreview",
     tags: ["Static Site", "Literature Review", "Dissertation"]
-  },
-  {
-    title: "Dissertation Questions Beta",
-    category: "GitHub Repository",
-    status: "Public GitHub repo",
-    summary: "A beta project space for exploring dissertation questions, research structure, and inquiry design.",
-    repoLink: "https://github.com/minerclass/dissertationquestionsbeta",
-    tags: ["Dissertation", "Research questions", "Prototype"]
   },
   {
     title: "Visualizations",
