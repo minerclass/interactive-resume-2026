@@ -190,6 +190,15 @@ const projectRepos = [
     tags: ["BPD3", "Board meetings", "Public dashboard", "GitHub Pages"]
   },
   {
+    title: "BPD3 Digital Resource Hub",
+    category: "BPD3 Public Work Sites",
+    status: "Live GitHub Pages site",
+    summary: "A public digital resource hub that organizes BPD3 technology, learning, privacy, and district support links in one accessible landing page.",
+    liveLink: "https://minerclass.github.io/BPD3_Digital_hub/",
+    repoLink: "https://github.com/minerclass/BPD3_Digital_hub",
+    tags: ["BPD3", "Digital resources", "Technology support", "GitHub Pages"]
+  },
+  {
     title: "The Long Arc of Machine Intelligence (App)",
     category: "Visual Apps for Qualifying Paper",
     status: "Live Web App",
