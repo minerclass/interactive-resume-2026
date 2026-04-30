@@ -276,22 +276,6 @@ const projectRepos = [
     liveLink: "https://minerclass.github.io/qualifying-dissertation-litreview/",
     repoLink: "https://github.com/minerclass/qualifying-dissertation-litreview",
     tags: ["Static Site", "Literature Review", "Dissertation"]
-  },
-  {
-    title: "Visualizations",
-    category: "GitHub Repository",
-    status: "Public GitHub repo",
-    summary: "A public repository for visual and interactive work that can support presentations, scholarship, and educator-facing explanation.",
-    repoLink: "https://github.com/minerclass/Visualizations",
-    tags: ["Visualization", "Interactive artifacts", "Public scholarship"]
-  },
-  {
-    title: "Google Apps Script",
-    category: "GitHub Repository",
-    status: "Public GitHub repo",
-    summary: "A space for Google Apps Script work connected to automation, productivity, and practical school technology workflows.",
-    repoLink: "https://github.com/minerclass/Google-Apps-Script",
-    tags: ["Automation", "Google Workspace", "School operations"]
   }
 ];
 
