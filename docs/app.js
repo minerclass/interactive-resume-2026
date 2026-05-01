@@ -233,6 +233,15 @@ const projectRepos = [
     tags: ["Dissertation", "Research planning", "GitHub Pages", "Explorer"]
   },
   {
+    title: "Dissertation Sites Dashboard",
+    category: "GitHub Sites for Dissertation Planning",
+    status: "Live GitHub Pages site",
+    summary: "A researcher-facing public dashboard that gathers the live dissertation planning, qualifying paper, instrument, and portfolio sites into one searchable map.",
+    liveLink: "https://minerclass.github.io/dissertationquestionsbeta/dissertation-sites/",
+    repoLink: "https://github.com/minerclass/dissertationquestionsbeta",
+    tags: ["Dissertation", "GitHub Pages", "Research dashboard", "Public scholarship"]
+  },
+  {
     title: "The Long Arc of Machine Intelligence",
     category: "GitHub Sites for Qualifying Paper",
     status: "Public Site",
