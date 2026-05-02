@@ -260,6 +260,15 @@ const projectRepos = [
     tags: ["Static Site", "Research Support", "Pedagogy"]
   },
   {
+    title: "Pedagogical Friction Practitioner Slide Deck",
+    category: "GitHub Sites for Qualifying Paper",
+    status: "Live GitHub Pages slide deck",
+    summary: "A practitioner-facing browser slide deck for educators and district leaders on protecting productive struggle when AI makes schoolwork easier to complete.",
+    liveLink: "https://minerclass.github.io/pedagogical-friction-iste-ascd-decks/practitioner/",
+    repoLink: "https://github.com/minerclass/pedagogical-friction-iste-ascd-decks",
+    tags: ["Pedagogical Friction", "Presentation", "GitHub Pages", "BPD3"]
+  },
+  {
     title: "The Technologizing of the Word",
     category: "GitHub Sites for Qualifying Paper",
     status: "Public Site",
