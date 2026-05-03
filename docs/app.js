@@ -260,13 +260,13 @@ const projectRepos = [
     tags: ["Static Site", "Research Support", "Pedagogy"]
   },
   {
-    title: "Pedagogical Friction Practitioner Slide Deck",
+    title: "Pedagogical Friction ISTE+ASCD Expert Webinar Deck",
     category: "GitHub Sites for Qualifying Paper",
     status: "Live GitHub Pages slide deck",
-    summary: "A practitioner-facing browser slide deck for educators and district leaders on protecting productive struggle when AI makes schoolwork easier to complete.",
-    liveLink: "https://minerclass.github.io/pedagogical-friction-iste-ascd-decks/practitioner/",
+    summary: "A browser-based ISTE+ASCD expert webinar slide deck for educators and district leaders on protecting productive struggle when AI makes schoolwork easier to complete.",
+    liveLink: "https://minerclass.github.io/pedagogical-friction-iste-ascd-decks/iste-ew/",
     repoLink: "https://github.com/minerclass/pedagogical-friction-iste-ascd-decks",
-    tags: ["Pedagogical Friction", "Presentation", "GitHub Pages", "BPD3"]
+    tags: ["Pedagogical Friction", "ISTE+ASCD", "Presentation", "GitHub Pages"]
   },
   {
     title: "The Technologizing of the Word",
