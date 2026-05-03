@@ -154,15 +154,6 @@ const evidence = [
 
 const projectRepos = [
   {
-    title: "Interactive Resume",
-    category: "Website",
-    status: "Live GitHub Pages site",
-    summary: "The public-facing professional map that connects resume claims to writing, projects, frameworks, and leadership evidence.",
-    liveLink: "https://minerclass.github.io/interactive-resume-2026/",
-    repoLink: "https://github.com/minerclass/interactive-resume-2026",
-    tags: ["Portfolio", "GitHub Pages", "Professional identity"]
-  },
-  {
     title: "BPD3 Technology Department Review",
     category: "BPD3 Public Work Sites",
     status: "Live GitHub Pages site",
