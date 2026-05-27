@@ -233,6 +233,15 @@ const projectRepos = [
     tags: ["Dissertation", "GitHub Pages", "Research dashboard", "Public scholarship"]
   },
   {
+    title: "When the Output Looks Like Learning Article Companion",
+    category: "GitHub Sites for Qualifying Paper",
+    status: "Live GitHub Pages site",
+    summary: "A digital companion to the published i.e.: inquiry in education article on tertiary algorithmicity, unproductive success, and pedagogical friction in K-12 schools.",
+    liveLink: "https://minerclass.github.io/When-Output-Looks-Like-Learning/",
+    repoLink: "https://github.com/minerclass/When-Output-Looks-Like-Learning",
+    tags: ["Public scholarship", "Tertiary Algorithmicity", "Pedagogical Friction", "GitHub Pages"]
+  },
+  {
     title: "The Long Arc of Machine Intelligence",
     category: "GitHub Sites for Qualifying Paper",
     status: "Public Site",
