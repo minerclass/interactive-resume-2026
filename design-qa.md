@@ -66,4 +66,14 @@ No actionable P0, P1, or P2 findings remain.
 - Optional purpose-made raster annotation ornaments.
 - Optional relocation of Print to the top utility area.
 
+### Pass 3: User-requested header adjustments
+
+- Source: output/playwright/user-adjustment-reference.png.
+- Implementation: output/playwright/header-type-adjustments-local.png.
+- Focused comparison: output/playwright/header-type-comparison-small.jpg.
+- Changes: centered MJM on one line inside the existing 52 x 52 square; introduced DM Serif Display for h1, h2, h3, the hero profession line, and professional-lens headings.
+- Evidence: computed heading families resolve to DM Serif Display; MJM remains a 52 x 52 square; desktop and 390 x 844 mobile captures show stronger M strokes with no clipping or horizontal page overflow.
+- Browser console: 0 errors and 0 warnings.
+- Result: no actionable P0, P1, or P2 findings.
+
 final result: passed

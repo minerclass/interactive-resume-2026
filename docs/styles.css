@@ -15,6 +15,7 @@
   --shadow: 0 16px 38px rgba(48, 39, 24, 0.11);
   --radius: 3px;
   --display: "Bodoni Moda", Georgia, "Times New Roman", serif;
+  --heading: "DM Serif Display", Georgia, "Times New Roman", serif;
   --sans: "Source Sans 3", Arial, Helvetica, sans-serif;
 }
 
@@ -87,27 +88,18 @@ input:focus-visible {
   position: relative;
   width: 3.25rem;
   height: 3.25rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border: 1.5px solid var(--ink);
   color: var(--ink);
   text-decoration: none;
-  font-family: var(--display);
-  font-weight: 700;
-  font-size: 1rem;
+  font-family: var(--heading);
+  font-weight: 400;
+  font-size: 0.92rem;
+  letter-spacing: 0.08em;
   line-height: 1;
 }
-
-.brand span {
-  display: grid;
-  place-items: center;
-}
-
-.brand span:last-child {
-  grid-column: 1;
-}
-
 .nav-links {
   display: flex;
   gap: clamp(1.1rem, 3vw, 3.4rem);
@@ -183,10 +175,9 @@ p {
 h1,
 h2,
 h3 {
-  font-family: var(--display);
-  font-weight: 700;
+  font-family: var(--heading);
+  font-weight: 400;
 }
-
 h1 {
   margin: 0;
   font-size: clamp(4.6rem, 8.2vw, 8.15rem);
@@ -223,7 +214,7 @@ h3 {
 .hero-title {
   max-width: 36rem;
   margin: 0.35rem 0 0;
-  font-family: var(--display);
+  font-family: var(--heading);
   font-size: clamp(1.35rem, 2.15vw, 1.78rem);
   font-weight: 700;
   line-height: 1.15;
@@ -406,7 +397,7 @@ h3 {
 }
 
 .lens-copy strong {
-  font-family: var(--display);
+  font-family: var(--heading);
   font-size: clamp(1.75rem, 2.8vw, 2.4rem);
   line-height: 1;
 }
