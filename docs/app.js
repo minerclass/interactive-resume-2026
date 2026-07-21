@@ -299,6 +299,14 @@ const projectRepos = [
 
 const resources = [
   {
+    type: "Journal",
+    year: "2026",
+    title: "When the Output Looks Like Learning: Tertiary Algorithmicity, Unproductive Success, and the Case for Pedagogical Friction in K-12 Schools",
+    venue: "i.e.: inquiry in education, 18(1), Article 4",
+    link: "https://digitalcommons.nl.edu/ie/vol18/iss1/4/",
+    keywords: ["AI", "tertiary algorithmicity", "unproductive success", "pedagogical friction", "K-12"]
+  },
+  {
     type: "Book",
     year: "2024",
     title: "AI Goes to School: How to Harness Artificial Intelligence in Education to Prepare Students for the Future",
