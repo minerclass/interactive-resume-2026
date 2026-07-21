@@ -466,9 +466,10 @@ function makeTag(text) {
 
 function renderPathways() {
   const container = document.querySelector("#pathwayGrid");
-  container.innerHTML = pathways.map((item) => `
-    <article class="card pathway-card">
+  container.innerHTML = pathways.map((item, index) => `
+    <article class="card pathway-card" data-accent="${index + 1}">
       <div>
+        <span class="pathway-number" aria-hidden="true">${String(index + 1).padStart(2, "0")}</span>
         <h3>${item.title}</h3>
         <p>${item.summary}</p>
       </div>
@@ -476,7 +477,6 @@ function renderPathways() {
     </article>
   `).join("");
 }
-
 function renderExperienceFilters() {
   const container = document.querySelector("#experienceFilters");
   container.innerHTML = uniqueDomains().map((domain) => `
@@ -596,6 +596,30 @@ function renderCredentials() {
   `).join("");
 }
 
+function initLensIndex() {
+  const lensButtons = document.querySelectorAll(".lens-band");
+
+  lensButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      lensButtons.forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
+
+      if (button.dataset.experienceFilter) {
+        activeExperienceFilter = button.dataset.experienceFilter;
+        renderExperienceFilters();
+        renderExperiences();
+      }
+
+      if (button.dataset.resourceFilter) {
+        activeResourceFilter = button.dataset.resourceFilter;
+        renderResourceFilters();
+        renderResources();
+      }
+
+      document.querySelector(button.dataset.target)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+}
+
 function init() {
   renderPathways();
   renderExperienceFilters();
@@ -605,9 +629,9 @@ function init() {
   renderResourceFilters();
   renderResources();
   renderCredentials();
+  initLensIndex();
 
   document.querySelector("#resourceSearch").addEventListener("input", renderResources);
   document.querySelector("#printButton").addEventListener("click", () => window.print());
 }
-
 init();

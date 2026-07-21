@@ -4,15 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Interactive resume and professional portfolio for Micah J. Miner, CETL, Ed.S., Ed.D. Candidate.">
+    <meta name="theme-color" content="#f7f1e5">
+    <link rel="icon" href="data:,">
     <title>Micah J. Miner | Interactive Resume</title>
-    <link rel="stylesheet" href="styles.css?v=20260427-live-links">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,600;6..96,700&amp;family=Source+Sans+3:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260721-field-notes">
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to main content</a>
 
     <header class="site-header">
       <nav class="topbar" aria-label="Primary">
-        <a class="brand" href="#top" aria-label="Micah J. Miner home">MJM</a>
+        <a class="brand" href="#top" aria-label="Micah J. Miner home"><span>M</span><span>J</span><span>M</span></a>
         <div class="nav-links">
           <a href="#experience">Experience</a>
           <a href="#evidence">Evidence</a>
@@ -24,41 +29,73 @@
 
       <section id="top" class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">Interactive resume extension</p>
-          <h1>Micah J. Miner</h1>
-          <p class="hero-title">CETL, Ed.S. | Ed.D. Candidate | K-12 technology leader, author, consultant, and researcher</p>
+          <p class="eyebrow">Field notes on leadership &amp; learning</p>
+          <h1>Micah J.<br>Miner</h1>
+          <p class="hero-credentials">CETL, Ed.S. <span aria-hidden="true">|</span> Ed.D. Candidate</p>
+          <p class="hero-title">K-12 technology leader, author,<br>consultant, and researcher</p>
           <p class="hero-summary">
-            District technology leader and educational writer working across AI governance, instructional technology, curriculum, infrastructure, media literacy, and public scholarship.
+            I partner with school systems to design and sustain equitable, evidence-informed learning with and through technology. My work bridges practice and research to improve outcomes for educators and students.
           </p>
           <div class="hero-actions" aria-label="Quick actions">
             <a class="button primary" href="#pathways">Explore pathways</a>
             <a class="button" href="https://micahminer.com/" target="_blank" rel="noreferrer">Visit website</a>
             <button class="button icon-button" type="button" id="printButton" aria-label="Print or save this page">Print</button>
           </div>
+
+          <aside class="signal-panel" aria-label="Professional signals">
+            <div>
+              <span class="metric">23</span>
+              <span class="metric-label">years in education</span>
+            </div>
+            <div>
+              <span class="metric">15</span>
+              <span class="metric-label">years directing instructional technology, curriculum, and innovation initiatives</span>
+            </div>
+            <div>
+              <span class="metric">5</span>
+              <span class="metric-label">years in school district technology operations</span>
+            </div>
+            <div>
+              <span class="metric">2027</span>
+              <span class="metric-label">expected Ed.D. completion</span>
+            </div>
+          </aside>
         </div>
 
-        <aside class="signal-panel" aria-label="Professional signals">
-          <div>
-            <span class="metric">23</span>
-            <span class="metric-label">years in education</span>
-          </div>
-          <div>
-            <span class="metric">15</span>
-            <span class="metric-label">years directing instructional technology, curriculum, and innovation initiatives</span>
-          </div>
-          <div>
-            <span class="metric">5</span>
-            <span class="metric-label">school district technology operation</span>
-          </div>
-          <div>
-            <span class="metric">2027</span>
-            <span class="metric-label">expected Ed.D. completion</span>
-          </div>
-        </aside>
+        <div class="lens-index" aria-label="Explore professional lenses">
+          <button class="lens-band lens-leadership" type="button" data-target="#experience" data-experience-filter="Technology Leadership" aria-pressed="false">
+            <span class="lens-number">01</span>
+            <span class="lens-copy"><strong>Leadership</strong><small>Building vision, culture, and systems that expand learning with and through technology.</small></span>
+            <span class="lens-action">Explore</span>
+          </button>
+          <button class="lens-band lens-research" type="button" data-target="#evidence" aria-pressed="false">
+            <span class="lens-number">02</span>
+            <span class="lens-copy"><strong>Research</strong><small>Studying the conditions and practices that advance equitable, meaningful learning.</small></span>
+            <span class="lens-action">Explore</span>
+          </button>
+          <button class="lens-band lens-writing" type="button" data-target="#writing" aria-pressed="false">
+            <span class="lens-number">03</span>
+            <span class="lens-copy"><strong>Writing</strong><small>Connecting scholarship, district leadership, and classroom practice.</small></span>
+            <span class="lens-action">Explore</span>
+          </button>
+          <button class="lens-band lens-speaking" type="button" data-target="#writing" data-resource-filter="Speaking" aria-pressed="false">
+            <span class="lens-number">04</span>
+            <span class="lens-copy"><strong>Speaking</strong><small>Sharing practical frameworks with educators, leaders, and communities.</small></span>
+            <span class="lens-action">Explore</span>
+          </button>
+        </div>
       </section>
     </header>
 
     <main id="main">
+      <section id="pathways" class="section" aria-labelledby="pathways-heading">
+        <div class="section-heading">
+          <p class="section-kicker">Selected evidence</p>
+          <h2 id="pathways-heading">Explore highlights across the work.</h2>
+        </div>
+        <div class="pathway-grid" id="pathwayGrid"></div>
+      </section>
+
       <section class="section intro-grid" aria-labelledby="summary-heading">
         <div>
           <p class="section-kicker">Professional summary</p>
@@ -72,14 +109,6 @@
             This repo is meant to make the resume explorable. It gives collaborators, districts, conference organizers, search committees, and readers a clearer view of the projects, frameworks, writing, and leadership contexts behind the one-page credential summary.
           </p>
         </div>
-      </section>
-
-      <section id="pathways" class="section" aria-labelledby="pathways-heading">
-        <div class="section-heading">
-          <p class="section-kicker">Choose a lens</p>
-          <h2 id="pathways-heading">Explore by professional pathway.</h2>
-        </div>
-        <div class="pathway-grid" id="pathwayGrid"></div>
       </section>
 
       <section id="experience" class="section split-section" aria-labelledby="experience-heading">
@@ -146,6 +175,6 @@
       </div>
     </footer>
 
-    <script src="app.js?v=20260503-remove-self-link"></script>
+    <script src="app.js?v=20260721-field-notes"></script>
   </body>
 </html>
