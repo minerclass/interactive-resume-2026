@@ -373,6 +373,70 @@ const resources = [
   {
     type: "Speaking",
     year: "2026",
+    title: "What AI Makes Easy Might Be What Students Need to Struggle With",
+    venue: "DuPage ROE | Conference speaker",
+    link: "https://minerclass.github.io/dupage-roe-session-26/",
+    keywords: ["speaking", "conference speaker", "DuPage ROE", "AI", "productive struggle"]
+  },
+  {
+    type: "Speaking",
+    year: "2026",
+    title: "Pedagogical Friction as Subversive Praxis",
+    venue: "AAACS | Interactive scholarly session",
+    link: "https://minerclass.github.io/aaacs-2026-pedagogical-friction/",
+    keywords: ["speaking", "AAACS", "pedagogical friction", "curriculum studies", "agency"]
+  },
+  {
+    type: "Speaking",
+    year: "2026",
+    title: "When the Output Looks Like Learning",
+    venue: "NLU AI in Education | Conference presentation",
+    link: "https://minerclass.github.io/nlu_ai-ed-conference-pres26/",
+    keywords: ["speaking", "NLU", "AI", "pedagogical friction", "noetic work"]
+  },
+  {
+    type: "Speaking",
+    year: "2026",
+    title: "Pedagogical Friction and AI",
+    venue: "NLU Doctoral Colloquium | Workshop and presentation",
+    link: "https://minerclass.github.io/nlu-doccolloquium-may26/",
+    keywords: ["speaking", "NLU", "doctoral colloquium", "workshop", "pedagogical friction"]
+  },
+  {
+    type: "Speaking",
+    year: "2026",
+    title: "The Pedagogical Importance of Friction in the Age of Generative AI",
+    venue: "ISTE+ASCD | Expert webinar",
+    link: "https://minerclass.github.io/pedagogical-friction-iste-ascd-decks/iste-ew/",
+    keywords: ["speaking", "ISTE+ASCD", "webinar", "generative AI", "instructional design"]
+  },
+  {
+    type: "Speaking",
+    year: "2026",
+    title: "The Pedagogical Imperative of Friction",
+    venue: "Practitioner Edition | Interactive learning experience",
+    link: "https://minerclass.github.io/pedagogical-friction-iste-ascd-decks/practitioner/",
+    keywords: ["speaking", "practitioner", "interactive", "pedagogical friction", "classroom decisions"]
+  },
+  {
+    type: "Speaking",
+    year: "2026",
+    title: "Teaching Social Studies in the Age of AI",
+    venue: "Social Studies | Disciplinary adaptation",
+    link: "https://minerclass.github.io/nlu_ai-ed-conference-pres26/social-studies/",
+    keywords: ["speaking", "social studies", "AI", "civic judgment", "inquiry"]
+  },
+  {
+    type: "Speaking",
+    year: "2026",
+    title: "Frictionless Citizen",
+    venue: "AAACS | Curriculum and civic adaptation",
+    link: "https://minerclass.github.io/nlu_ai-ed-conference-pres26/aaacs-frictionless-citizen/",
+    keywords: ["speaking", "AAACS", "curriculum", "civic education", "friction"]
+  },
+  {
+    type: "Speaking",
+    year: "2026",
     title: "Leading with Technoskepticism: Media Ecology and Infrastructure Friction",
     venue: "NSSLA Annual Conference, Chicago",
     link: "",

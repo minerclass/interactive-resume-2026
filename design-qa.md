@@ -35,7 +35,7 @@ No actionable P0, P1, or P2 findings remain.
 ## Interaction and Accessibility Checks
 
 - Leadership lens selects the Technology Leadership experience filter and scrolls to Experience.
-- Speaking lens selects the Speaking resource filter, shows three matching resources, and scrolls to Writing.
+- Speaking lens selects the Speaking resource filter, shows eleven matching resources, and scrolls to Writing.
 - Search, filter buttons, primary links, and Print remain wired.
 - Focus styles are visible; lens controls are native buttons with aria-pressed.
 - Mobile viewport 390 x 844 has no horizontal page overflow.
