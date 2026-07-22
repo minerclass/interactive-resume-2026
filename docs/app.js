@@ -300,11 +300,19 @@ const projectRepos = [
 const resources = [
   {
     type: "Journal",
-    year: "2026",
+    year: "2025",
     title: "When the Output Looks Like Learning: Tertiary Algorithmicity, Unproductive Success, and the Case for Pedagogical Friction in K\u201312 Schools",
     venue: "i.e.: inquiry in education, 18(1), Article 4",
     link: "https://digitalcommons.nl.edu/ie/vol18/iss1/4/",
     keywords: ["AI", "tertiary algorithmicity", "unproductive success", "pedagogical friction", "K-12"]
+  },
+  {
+    type: "Article",
+    year: "2026",
+    title: "Screen Time Is the Wrong Question: What Is the Screen Asking Students to Practice?",
+    venue: "CoSN, Consortium for School Networking",
+    link: "https://www.cosn.org/screen-time-is-the-wrong-question-what-is-the-screen-asking-students-to-practice/",
+    keywords: ["screen time", "AI", "pedagogical friction", "technology leadership", "CoSN"]
   },
   {
     type: "Book",
