@@ -147,8 +147,8 @@ const evidence = [
   },
   {
     title: "Research trajectory",
-    summary: "Doctoral work studying pedagogical friction and AI, with attention to noetic, rhetorical, existential, and infrastructural dimensions of learning.",
-    examples: ["Ed.D. expected 2027", "Collective case study", "Media ecology", "Desirable difficulties"]
+    summary: "Doctoral work studying pedagogical friction and AI, examining noetic, rhetorical, and existential dimensions of learning under the infrastructural conditions that shape them.",
+    examples: ["Ed.D. expected 2027", "Qualitative-dominant convergent mixed methods", "Media ecology", "Desirable difficulties"]
   }
 ];
 
