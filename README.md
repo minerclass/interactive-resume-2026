@@ -6,6 +6,7 @@ This repository turns a traditional resume into an interactive public portfolio 
 
 - A GitHub Pages-ready interactive site in `docs/`
 - Filterable experience, publications, speaking, and project sections
+- A static Teaching & Learning companion page (`docs/teaching-learning.html`) for curriculum, instruction, pedagogical writing, and licensure
 - A leadership evidence map organized around K-12 technology leadership, AI governance, curriculum, research, and public scholarship
 - A privacy-conscious public-facing contact section
 - A structure that can be expanded with GitHub repository links, PDFs, slide decks, writing samples, and artifacts

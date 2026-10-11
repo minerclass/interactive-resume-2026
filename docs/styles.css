@@ -883,3 +883,257 @@ main {
     break-inside: avoid;
   }
 }
+
+/* Teaching & Learning page and the links to it from the main resume */
+
+.nav-links a:nth-child(6):hover,
+.nav-links a:nth-child(6):focus-visible {
+  border-color: var(--coral);
+}
+
+.nav-links a.nav-feature {
+  border-color: var(--teal);
+}
+
+.tl-title {
+  font-size: clamp(3.4rem, 6.4vw, 6.2rem);
+  line-height: 0.86;
+}
+
+.tl-questions-wrap {
+  min-width: 0;
+  padding-right: 1.25rem;
+}
+
+.tl-questions-caption {
+  margin: 0 0 0.9rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.tl-questions {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  filter: drop-shadow(0 14px 18px rgba(47, 35, 17, 0.12));
+}
+
+.tl-questions li {
+  min-height: 7.6rem;
+  display: grid;
+  grid-template-columns: 4.3rem minmax(0, 1fr);
+  gap: 1.35rem;
+  align-items: center;
+  padding: 1.25rem 1.65rem;
+  border: 1px solid rgba(20, 20, 17, 0.46);
+  color: var(--ink);
+}
+
+.tl-questions li + li {
+  margin-top: -1px;
+}
+
+.tl-questions li:first-child {
+  border-radius: 12px 12px 0 0;
+  background: var(--coral);
+}
+
+.tl-questions li:nth-child(2) {
+  background: var(--teal);
+  color: #fff;
+}
+
+.tl-questions li:nth-child(3) {
+  background: var(--cobalt);
+  color: #fff;
+}
+
+.tl-questions li:last-child {
+  border-radius: 0 0 12px 12px;
+  background: var(--gold);
+}
+
+.tl-questions .lens-copy strong {
+  font-size: clamp(1.45rem, 2.3vw, 1.95rem);
+  font-weight: 400;
+}
+
+.tl-timeline .timeline-card[data-primary-domain="leadership"],
+.tl-timeline .timeline-card[data-primary-domain="policy"] {
+  border-left-color: var(--teal);
+}
+
+.tl-timeline .timeline-card[data-primary-domain="professional-learning"],
+.tl-timeline .timeline-card[data-primary-domain="teacher-education"] {
+  border-left-color: var(--cobalt);
+}
+
+.tl-flush {
+  margin-bottom: 2.5rem;
+}
+
+.tl-frameworks .card h3 {
+  margin-top: 0.45rem;
+}
+
+.tl-callout {
+  margin-top: 1.4rem;
+  padding: 1.1rem 1.25rem;
+  border: 1px solid var(--line);
+  border-left: 6px solid var(--teal);
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.tl-callout p {
+  margin: 0 0 0.8rem;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+@media (max-width: 1050px) {
+  .tl-questions-wrap {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 620px) {
+  .tl-questions li {
+    grid-template-columns: 3.4rem minmax(0, 1fr);
+    gap: 1rem;
+    padding: 1.1rem;
+  }
+
+  .tl-questions .lens-number {
+    font-size: 2.2rem;
+  }
+}
+
+@media print {
+  .tl-questions {
+    filter: none;
+  }
+
+  .tl-questions li {
+    background: #fff !important;
+    color: #000 !important;
+    border-color: #888;
+  }
+}
+
+/* Instructional leadership section on the main page (adapted from the Codex draft, commit bb899f0) */
+
+.nav-links a:nth-child(7):hover,
+.nav-links a:nth-child(7):focus-visible {
+  border-color: var(--muted);
+}
+
+.instruction-section {
+  border-block: 1px solid var(--line);
+  scroll-margin-top: 1rem;
+}
+
+.instruction-lead {
+  font-size: 1.15rem;
+}
+
+.instruction-trajectory {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-bottom: 2.25rem;
+  background: var(--soft-teal);
+  border-top: 5px solid var(--teal);
+}
+
+.instruction-trajectory article {
+  min-width: 0;
+  padding: 1.5rem;
+}
+
+.instruction-trajectory article + article {
+  border-left: 1px solid var(--teal);
+}
+
+.trajectory-label {
+  margin: 0 0 0.7rem;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.instruction-trajectory h3 {
+  font-size: 1.5rem;
+}
+
+.instruction-trajectory p:last-of-type {
+  color: var(--muted);
+}
+
+.instruction-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.instruction-card {
+  border-top: 4px solid var(--teal);
+}
+
+.instruction-card h3 {
+  margin-top: 0.6rem;
+  font-size: 1.45rem;
+}
+
+.instruction-card ul {
+  padding-left: 1.1rem;
+  color: var(--muted);
+}
+
+.instruction-card li + li {
+  margin-top: 0.55rem;
+}
+
+.card .publication-status {
+  width: fit-content;
+  margin: 0.25rem 0 0.75rem;
+  padding: 0.4rem 0.65rem;
+  border: 1px solid var(--teal);
+  background: var(--soft-teal);
+  color: var(--ink);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+@media (max-width: 860px) {
+  .instruction-trajectory {
+    grid-template-columns: 1fr;
+  }
+
+  .instruction-trajectory article + article {
+    border-left: 0;
+    border-top: 1px solid var(--teal);
+  }
+}
+
+@media (max-width: 620px) {
+  .instruction-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media print {
+  .instruction-trajectory {
+    display: block;
+    background: #fff;
+  }
+
+  .instruction-trajectory article {
+    break-inside: avoid;
+  }
+}

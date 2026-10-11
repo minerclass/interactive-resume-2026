@@ -35,7 +35,7 @@ const experiences = [
   {
     role: "Director of Innovation & Technology",
     organization: "Beach Park School District 3, Lake County, IL",
-    period: "August 2024 - Present",
+    period: "2024 - Present",
     domains: ["Technology Leadership", "AI Governance", "Infrastructure"],
     bullets: [
       "Leads technology operations for a five-school district, including infrastructure, network management, helpdesk systems, and technology budgeting.",
@@ -47,7 +47,7 @@ const experiences = [
   {
     role: "Educational Consultant & Speaker",
     organization: "Micah Miner Educational Consulting Services",
-    period: "April 2023 - Present",
+    period: "2023 - Present",
     domains: ["AI Governance", "Writing", "Professional Learning"],
     bullets: [
       "Facilitates professional development on K-12 AI adoption, ethics, and instructional technology integration.",
@@ -56,11 +56,12 @@ const experiences = [
     ]
   },
   {
-    role: "District Administrator for Instructional Technology & Social Studies",
+    role: "District Instructional Technology & Social Studies Coordinator",
     organization: "Maywood-Melrose Park-Broadview District 89",
-    period: "July 2018 - July 2024",
+    period: "2018 - 2024",
     domains: ["Technology Leadership", "Curriculum", "Professional Learning"],
     bullets: [
+      "Led district-level instructional technology and K-8 social studies work across all schools, including curriculum, professional learning, coaching, and instructional systems.",
       "Developed and implemented a comprehensive K-12 technology curriculum.",
       "Designed professional development on instructional technology and culturally responsive practices for 320 educators.",
       "Led strategic planning for district-wide technology initiatives and coached instructional technology staff.",
@@ -70,37 +71,40 @@ const experiences = [
   {
     role: "Assistant Principal",
     organization: "Melrose Park Elementary School, District 89",
-    period: "July 2016 - June 2018",
+    period: "2016 - 2018",
     domains: ["Leadership", "Curriculum"],
     bullets: [
-      "Supported teaching, learning, and school climate improvement.",
-      "Developed K-5 instructional strategies connected to student achievement and teacher efficacy."
+      "Partnered with the principal at a K-5 school of about 870 students, 53% of them English learners.",
+      "Evaluated teacher performance and led professional learning on district and state initiatives.",
+      "Collaborated with district leaders to align curricular and assessment objectives across grade levels.",
+      "Co-led PBIS and supported school climate, student behavior, and family engagement."
     ]
   },
   {
     role: "Instructional Technology Coach",
     organization: "Stevenson Middle School, District 89",
-    period: "August 2015 - June 2016",
+    period: "2015 - 2016",
     domains: ["Technology Leadership", "Professional Learning"],
     bullets: [
-      "Coached teachers on technology integration and digital learning strategies across content areas.",
+      "Coached, co-taught, and modeled instruction with grades 6-8 teachers, aligning technology use with curricular goals.",
       "Led professional development on instructional technology tools and pedagogical practices."
     ]
   },
   {
     role: "Department Chair & Social Studies Teacher",
     organization: "Nancy B. Jefferson Alternative School, Chicago Public Schools",
-    period: "August 2010 - June 2015",
+    period: "2010 - 2015",
     domains: ["Curriculum", "Leadership", "Equity"],
     bullets: [
       "Led the social studies department serving incarcerated youth in an alternative education setting.",
-      "Designed trauma-informed curriculum and differentiated instruction for diverse student populations."
+      "Designed trauma-informed curriculum and differentiated instruction for diverse student populations.",
+      "Designed online courses and instructional wikis to support credit recovery and continuous learning."
     ]
   },
   {
     role: "Adjunct Professor",
     organization: "Trinity International University, Deerfield, IL",
-    period: "August 2010 - July 2012",
+    period: "2010 - 2012",
     domains: ["Curriculum", "Professional Learning"],
     bullets: [
       "Taught technology integration and social studies methods courses for undergraduate and graduate students.",
@@ -108,13 +112,25 @@ const experiences = [
     ]
   },
   {
-    role: "Policy Fellow & Committee Member",
+    role: "Teaching Policy Fellow & Educator Advisory Committee Member",
     organization: "Teach Plus Chicago & The Chicago Public Education Fund",
-    period: "January 2014 - June 2015",
+    period: "2014 - 2015",
     domains: ["Policy", "Writing"],
     bullets: [
-      "Participated in legislative discussions and contributed to state education policy reforms.",
-      "Authored policy recommendations and opinion pieces connected to assessment and teacher perspectives."
+      "Led a Teach Plus working-group policy project on peer review in CPS teacher evaluation (REACH 2.0), including a survey of 376 teachers.",
+      "Served on a congressional briefing panel on ESEA reauthorization and published four op-eds on assessment and teacher perspectives.",
+      "Worked with principal and teacher leaders on The Chicago Public Education Fund's Educator Advisory Committee."
+    ]
+  },
+  {
+    role: "Lead Teacher & Social Studies Teacher",
+    organization: "Phillips Achievement Academy, Chicago Public Schools",
+    period: "2006 - 2010",
+    domains: ["Curriculum", "Leadership", "Professional Learning"],
+    bullets: [
+      "Taught grades 9-12 social studies, from World Studies to Economics, in a program for students building credits toward graduation and postsecondary education.",
+      "Mentored new teachers and facilitated professional development, including technology integration.",
+      "Coordinated the Saturday School enrichment and credit recovery program and led the summer bridge program."
     ]
   }
 ];
@@ -299,6 +315,15 @@ const projectRepos = [
 
 const resources = [
   {
+    type: "Article",
+    year: "Invited",
+    title: "The Friction Worth Protecting: Preserving Productive Struggle in the Age of AI",
+    venue: "Educational Leadership, ISTE+ASCD",
+    status: "Submitted October 2026 for the March 2027 issue",
+    link: "",
+    keywords: ["pedagogy", "productive struggle", "AI", "instruction", "Educational Leadership", "friction"]
+  },
+  {
     type: "Journal",
     year: "2025",
     title: "When the Output Looks Like Learning: Tertiary Algorithmicity, Unproductive Success, and the Case for Pedagogical Friction in K\u201312 Schools",
@@ -324,8 +349,8 @@ const resources = [
   },
   {
     type: "Book",
-    year: "Forthcoming",
-    title: "AI Gets Schooled",
+    year: "In progress",
+    title: "EdTech Gets Schooled",
     venue: "Technoskepticism and digital literacies in education",
     link: "",
     keywords: ["AI", "technoskepticism", "digital literacy"]
@@ -341,10 +366,18 @@ const resources = [
   {
     type: "Article",
     year: "2024",
-    title: "Teaching Balanced History in a Polarized World",
+    title: "Teaching Balanced History in a Polarized World: Empowering Educators with C.O.R.E., H.E.A.R.T., and AI",
     venue: "Social Studies School Service Blog",
-    link: "https://micahminer.com/projects/",
+    link: "https://www.socialstudies.com/blog/teaching-balanced-history-in-a-polarized-world-empowering-educators-with-c-o-r-e-h-e-a-r-t-and-ai/",
     keywords: ["social studies", "history", "C.O.R.E.", "H.E.A.R.T."]
+  },
+  {
+    type: "Journal",
+    year: "2024",
+    title: "Using your C.O.R.E. and H.E.A.R.T. to Teach Balanced Social Studies and Civics with Generative AI to Promote Critical Thinking and Diverse Perspectives",
+    venue: "The Leader, National Social Studies Leaders Association, Spring 2024",
+    link: "",
+    keywords: ["social studies", "civics", "C.O.R.E.", "H.E.A.R.T.", "generative AI", "NSSLA"]
   },
   {
     type: "Journal",
@@ -491,9 +524,11 @@ const credentials = [
     title: "Certifications and licensure",
     items: [
       "CETL, Certified Education Technology Leader, Consortium for School Networking, 2025",
-      "Type 75 General Administrative Certificate, Illinois State Board of Education",
-      "Type 09 Standard Secondary Teaching License, Grades 6-12, Illinois State Board of Education",
-      "Educational Technology Specialist Endorsement, Illinois State Board of Education"
+      "Illinois Professional Educator License (PEL), valid through 2030",
+      "General Administrative endorsement, K-12",
+      "Technology Specialist endorsement, grades 6-12",
+      "Social Science 6-12; U.S. History and World History 9-12; Secondary Education 6-12",
+      "Illinois teacher evaluator, qualified 2016, retrained 2026"
     ]
   },
   {
@@ -649,6 +684,7 @@ function renderResources() {
       <span class="resource-type">${item.type} | ${item.year}</span>
       <h3>${item.title}</h3>
       <p>${item.venue}</p>
+      ${item.status ? `<p class="publication-status">${item.status}</p>` : ""}
       ${item.link ? `<a class="button" href="${item.link}" target="_blank" rel="noreferrer">Open source</a>` : ""}
     </article>
   `).join("");
